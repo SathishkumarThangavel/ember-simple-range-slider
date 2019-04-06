@@ -34,6 +34,7 @@ Slider Image
 
 [Range Slider Sample Image](docs/img/simple-range-slider.png)
 
+**Suggestions are most welcome. Feel free to raise an issue**
 
 License
 ------------------------------------------------------------------------------
