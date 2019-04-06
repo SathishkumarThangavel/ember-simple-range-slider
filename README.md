@@ -1,7 +1,9 @@
 ember-simple-range-slider
 ==============================================================================
 
-[Short description of the addon.]
+Simple single range slider with consistent UI across all browsers.
+
+> default Ember input range slider will have design breakage in IE 11. This addon provides solution to that.
 
 Installation
 ------------------------------------------------------------------------------
@@ -10,39 +12,23 @@ Installation
 ember install ember-simple-range-slider
 ```
 
+or
+
+```
+npm i ember-simple-range-slider --save
+```
+
 
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+{{simple-range-slider minVal=min maxVal=max rangeValue=value disabled=disabled}}
 
+- minVal - min value limit (or) left limit of range slider
+- maxVal - max value limit (or) right limit of range slider
+- rangeValue - pass the default value of the range slider
+- disabled - pass the boolean value to disable the range slider
 
-Contributing
-------------------------------------------------------------------------------
-
-### Installation
-
-* `git clone <repository-url>`
-* `cd ember-simple-range-slider`
-* `npm install`
-
-### Linting
-
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
-
-### Running tests
-
-* `ember test` – Runs the test suite on the current Ember version
-* `ember test --server` – Runs the test suite in "watch mode"
-* `ember try:each` – Runs the test suite against multiple Ember versions
-
-### Running the dummy application
-
-* `ember serve`
-* Visit the dummy application at [http://localhost:4200](http://localhost:4200).
-
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
 
 License
 ------------------------------------------------------------------------------
