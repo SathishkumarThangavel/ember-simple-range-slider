@@ -3,11 +3,13 @@
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "range slider",
+    "range input"
   ],
-  "repository": "",
+  "repository": "https://github.com/SathishkumarThangavel/ember-simple-range-slider",
   "license": "MIT",
-  "author": "",
+  "author": "Sathishkumar Thangavel",
   "directories": {
     "doc": "doc",
     "test": "tests"
