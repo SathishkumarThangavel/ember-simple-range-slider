@@ -22,12 +22,17 @@ npm i ember-simple-range-slider --save
 Usage
 ------------------------------------------------------------------------------
 
-{{simple-range-slider minVal=min maxVal=max rangeValue=value disabled=disabled}}
+`{{simple-range-slider minVal=min maxVal=max rangeValue=value disabled=disabled}}`
 
 - minVal - min value limit (or) left limit of range slider
 - maxVal - max value limit (or) right limit of range slider
 - rangeValue - pass the default value of the range slider
 - disabled - pass the boolean value to disable the range slider
+
+
+Slider Image
+
+[Range Slider Sample Image](docs/img/simple-range-slider.png)
 
 
 License
