@@ -34,7 +34,7 @@ Slider Image
 
 [Range Slider Sample Image](docs/img/simple-range-slider.png)
 
-**Suggestions are most welcome. Feel free to raise an issue**
+**Suggestions are most welcome. Feel free to [raise an issue here](https://github.com/SathishkumarThangavel/ember-simple-range-slider/issues/new)**
 
 License
 ------------------------------------------------------------------------------
